@@ -1,13 +1,8 @@
-package main
+package main 
+//executable package, creates main executable files
 
-import "fmt"
+import "fmt" //one of standard library
 
 func main() {
 	fmt.Println("Hi there!")
 }
-
-// how do we run the project?
-// go run nameofproject.go
-
-//go build --> go builds 
-//go 
