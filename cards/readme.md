@@ -18,6 +18,10 @@
 - Creating a new Slice of string
 ` cards := []string{"Ace of Diamonds", newCard()} `
 
+- Slice indices
+
+
+
 - for loop
 ```
 for index,card := range cards {

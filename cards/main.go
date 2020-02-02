@@ -5,18 +5,9 @@ func main() {
 	// card := newCard()
 
 	//how to create a slice
-	cards := deck{"Ace of Diamonds", newCard()}
-
-	//append returns new slice
-	cards = append(cards, "Six of Spades")
-
-	//for loop
-	// for i, card := range cards {
-	// 	fmt.Println(i, card)
-
-	cards.print()
-}
-
-func newCard() string {
-	return "Five of Diamonds"
+	cards := newDeck()
+	hand, remainingCard := deal(cards, 5)
+	//multiple return
+	hand.print()
+	remainingCard.print()
 }
